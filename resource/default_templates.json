@@ -1,0 +1,41 @@
+{
+  "generic_templates": [
+    "铛铛！为你抽中了美味的{food}！",
+    "经过深思熟虑，{bot}把这盘{food}端到了你面前。",
+    "别纠结啦，今天就吃{food}吧！",
+    "经过一番精密的摇号，{bot}宣布今天派发的美食是{food}！",
+    "听{bot}的，今天尝试一下{food}准没错~"
+  ],
+  "generic_drink_templates": [
+    "铛铛！为你抽中了清爽的{food}！",
+    "喝杯{food}解解渴吧！",
+    "听{bot}的，今天来一杯{food}准没错~"
+  ],
+  "crossover_templates": [
+    "{bot_a}在穿过隧门的过程中，意外来到了{world_b}，并和{bot_b}一起吃了{full_food_desc}！",
+    "{bot_a}为了寻找稀有食材，不小心跌入时空裂缝掉进{world_b}，被{bot_b}请客吃了一顿{full_food_desc}。",
+    "次元壁破裂啦！{bot_a}从{world_b}顺手拿走了一份{full_food_desc}，并高高兴兴地带回了{world_a}。",
+    "{bot_a}在探索新区域时迷路到了{world_b}，刚好遇到了正端着一盘{full_food_desc}的{bot_b}。"
+  ],
+  "crossover_drink_templates": [
+    "{bot_a}去{world_b}进货时，顺手带回了一杯{full_food_desc}！",
+    "{bot_a}遇到了{bot_b}，一起畅饮了{full_food_desc}！"
+  ],
+  "dark_templates": [
+    "救命，这{full_food_desc}真的是碳基生物能咽下去的吗？！",
+    "端上来的居然是{full_food_desc}...{bot}看了一眼，决定战术后仰。",
+    "看到{full_food_desc}的那一刻，{bot}的沉默震耳欲聋...",
+    "这盘{full_food_desc}散发着诡异的光芒，谁敢动筷子啊！",
+    "警报！{bot}发现了一份危险的{full_food_desc}，建议立刻销毁！"
+  ],
+  "dark_drink_templates": [
+    "这杯{full_food_desc}真的能喝吗？！",
+    "{bot}端着这杯冒着诡异气泡的{full_food_desc}，陷入了沉思..."
+  ],
+  "eat_fallback_words": [
+    "是啊，吃什么"
+  ],
+  "drink_fallback_words": [
+    "是啊，喝什么"
+  ]
+}
