@@ -374,7 +374,7 @@ def register(plugin, get_state, get_config=None):
             return cleaned
         return None
 
-    async def _get_or_fetch_skin_config(self, skin_id: str, source: str, force: bool = False,
+    async def _get_or_fetch_skin_config(skin_id: str, source: str, force: bool = False,
                                         preferred_node: str = "") -> tuple[dict | None, str | None, int]:
         """返回 (config, err_message, err_code)。"""
         cached = _load_cached_skin(skin_id, source)
@@ -400,7 +400,7 @@ def register(plugin, get_state, get_config=None):
         cleaned["_official"] = source == OFFICIAL_SKIN_SOURCE
         return cleaned, None, 200
 
-    async def _skin_fetch_raw(self, repo: str, rel_path: str, preferred_node: str = "") -> bytes | None:
+    async def _skin_fetch_raw(repo: str, rel_path: str, preferred_node: str = "") -> bytes | None:
         if rel_path != "skin/index.json" and not re.fullmatch(r"skin/[a-z0-9_]{1,40}\.json", rel_path):
             if _safe_skin_asset_rel(rel_path) is None:
                 return None
@@ -455,7 +455,7 @@ def register(plugin, get_state, get_config=None):
                     continue
         return None
 
-    def _skin_asset_descriptor(self, response_id, source: str, path: Path, cached: bool) -> dict:
+    def _skin_asset_descriptor(response_id, source: str, path: Path, cached: bool) -> dict:
         size = Path(path).stat().st_size
         mime = mimetypes.guess_type(str(path))[0] or "application/octet-stream"
         return {
@@ -471,7 +471,7 @@ def register(plugin, get_state, get_config=None):
             "cached": cached,
         }
 
-    async def _resolve_skin_asset(self, file: str, skin_id: str, source_q: str, force: bool, node: str,
+    async def _resolve_skin_asset(file: str, skin_id: str, source_q: str, force: bool, node: str,
                                   allow_fetch: bool) -> tuple[dict | None, JSONResponse | None]:
         """返回 (descriptor_info, error_response)。descriptor_info 含 path/source/response_id。"""
         # 内置皮肤分支
