@@ -1,7 +1,7 @@
 # 千小妹还在吃 (Chisa Still Eating) — NekroAgent 版
 
 跨次元干饭摇号群聊娱乐插件。移植自 AstrBot 插件
-[astrbot_plugin_chisa_still_eating](https://github.com/dddada123/astrbot_plugin_chisa_still_eating) v4.2.3
+[astrbot_plugin_chisa_still_eating](https://github.com/dddada123/astrbot_plugin_chisa_still_eating) v4.2.4
 （原作者 **Rua432**，MIT 协议）。
 
 版本：**4.2.4-na**。
