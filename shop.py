@@ -1,6 +1,6 @@
 """千小妹商会 - DLC/图库下载模块（NekroAgent 移植版）
 
-移植自 AstrBot 插件 v4.2.3 的下载逻辑：多镜像智能测速、逐跳 HTTPS 白名单校验、
+移植自 AstrBot 插件 v4.2.4 的下载逻辑：多镜像智能测速、逐跳 HTTPS 白名单校验、
 响应大小限制、SHA-256 校验、ZIP 安全解压（防路径穿越/符号链接/解压炸弹）。
 原网络层基于 aiohttp，本移植版改用 httpx.AsyncClient。
 """

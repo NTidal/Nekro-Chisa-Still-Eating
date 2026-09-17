@@ -1,7 +1,7 @@
 """千小妹还在吃 (NekroAgent 移植版) - 核心逻辑层
 
 框架无关的纯 Python 逻辑：图库扫描、摇号引擎、限频、干饭人扫描、世界/模板配置加载。
-移植自 AstrBot 插件 astrbot_plugin_chisa_still_eating v4.2.3 (作者 Rua432, MIT)。
+移植自 AstrBot 插件 astrbot_plugin_chisa_still_eating v4.2.4 (作者 Rua432, MIT)。
 """
 
 from __future__ import annotations
