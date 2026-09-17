@@ -4,7 +4,7 @@
 [astrbot_plugin_chisa_still_eating](https://github.com/dddada123/astrbot_plugin_chisa_still_eating) v4.2.3
 （原作者 **Rua432**，MIT 协议）。
 
-版本：**4.2.3-na**。
+版本：**4.2.4-na**。
 
 ---
 
